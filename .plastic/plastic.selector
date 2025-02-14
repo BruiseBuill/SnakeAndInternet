@@ -1,0 +1,4 @@
+repository "Unity_Snake@csfcsfcsfcsf@cloud.cn"
+  path "/"
+    smartbranch "/main" 
+     

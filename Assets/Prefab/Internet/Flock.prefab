@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7688940285764154126
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4876978455770472524}
+  - component: {fileID: 3515862669882316834}
+  - component: {fileID: 8204657498193678264}
+  - component: {fileID: -7994644454531878836}
+  - component: {fileID: -1097847134846006599}
+  m_Layer: 0
+  m_Name: Flock
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4876978455770472524
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7688940285764154126}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3515862669882316834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7688940285764154126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf477ebcb488b244845a677babe1896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onAnyUnitChange: {fileID: 11400000, guid: 803e2300590636c448f276eef57cdf6a, type: 2}
+  onFlockGenerate: {fileID: 11400000, guid: fb385bbf334f5f04db5824e14964722a, type: 2}
+  fighterPrefab: {fileID: 7734621588901540540, guid: 7c25a96f07f3c794692dbe674fd9a99a, type: 3}
+  isAlive: 0
+  skin: {fileID: 0}
+  isPlayer: 0
+  orient: {x: 0, y: 0, z: 0}
+  canShoot: 1
+  shootBreak: 2
+  flockList: []
+  maxUnitCount: 25
+  massCenter: {x: 0, y: 0, z: 0}
+  detectRadius: 3
+  maxSpeed: 2.2
+  maxForce: 3
+  separationWeight: 0.45
+  alignmentWeight: 0.05
+  cohesionWeight: 1
+  leadingWeight: 2
+  initialUnitCount: 2
+--- !u!114 &8204657498193678264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7688940285764154126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c1f8195e6fa844ba6bb8c470f53ac8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  visionRadius: 4.3
+  visionRadiusGrowth: 0.15
+--- !u!114 &-7994644454531878836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7688940285764154126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f95a8e3b10be32c4697019365c8a748a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aiThinkBreak: {x: 0.3, y: 1}
+  visionRadius: 4
+  visionRadiusGrowth: 0.12
+  canAttack: 1
+  attackBreak: {x: 3.5, y: 6}
+  patrolPoint: {x: 0, y: 0, z: 0}
+  arriveRadius: 1.8
+  arriveRadiusGrowth: 0.1
+  enemylayer:
+    serializedVersion: 2
+    m_Bits: 0
+--- !u!114 &-1097847134846006599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7688940285764154126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 951099334
+  AlwaysReplicateAsRoot: 0
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1

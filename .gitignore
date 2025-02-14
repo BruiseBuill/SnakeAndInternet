@@ -1,0 +1,52 @@
+# ========== Unity 生成的文件 (不要提交) ==========
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+UserSettings/
+MemoryCaptures/
+
+# ========== 版本控制无关的文件 ==========
+# 预编译的 Visual Studio / Rider 文件
+.vs/
+*.sln
+*.csproj
+*.unityproj
+*.suo
+*.tmp
+*.userprefs
+*.pidb
+*.ide
+
+# 预编译的 MacOS / Linux 文件
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# ========== IDE 相关 ==========
+# JetBrains Rider
+.idea/
+*.iml
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# ========== Unity 资源文件 ==========
+# 不提交 Unity 打包后的文件
+*.apk
+*.aab
+*.unitypackage
+
+# 不提交大文件（可选，如果使用 Git LFS 也可以追踪）
+*.psd
+*.tiff
+*.fbx
+*.obj
+*.mp4
+*.wav
+*.ogg
+*.zip
