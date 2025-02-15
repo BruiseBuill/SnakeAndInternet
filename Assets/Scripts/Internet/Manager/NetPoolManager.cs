@@ -4,7 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.Netcode;
 using UnityEngine;
-using Unity.Netcode.GameObject;
+using UnityEngine.SceneManagement;
 
 namespace Internet
 {
@@ -21,14 +21,14 @@ namespace Internet
             instance = this;
         }
 
-        [SerializeField] Pool[] netObjectPool;
-        [SerializeField] Pool[] nonNetObjetPool;
-        Dictionary<string, Pool> dictionary = new Dictionary<string, Pool>();
+        //[SerializeField] Pool[] netObjectPool;
+        //[SerializeField] Pool[] nonNetObjetPool;
+        Dictionary<string, PoolNetObj> dictionary = new Dictionary<string, PoolNetObj>();
 
         protected void Awake()
         {
             int i = 0;
-
+            /*
             for (i = 0; i < netObjectPool.Length; i++)
             {
                 itemPool[i].Initialize(transform);
@@ -38,7 +38,7 @@ namespace Internet
             {
                 nonNetObjetPool[i].Initialize(transform);
                 dictionary.Add(nonNetObjetPool[i].prefab.name, nonNetObjetPool[i]);
-            }
+            }*/
         }
         private void Start()
         {

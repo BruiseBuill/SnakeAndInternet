@@ -453,7 +453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5246e94bb442de34c863bc7c5be16f64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPool:
+  itemPool:
   - prefab: {fileID: 8483837443218701333, guid: 5cb2bd888e1c01a40aa924efe7109568, type: 3}
     size: 0
   - prefab: {fileID: 7734621588901540540, guid: 7c25a96f07f3c794692dbe674fd9a99a, type: 3}
@@ -462,13 +462,13 @@ MonoBehaviour:
     size: 0
   - prefab: {fileID: 566494198760425025, guid: f7806259add94fa4e870408daeab77de, type: 3}
     size: 0
+  vfxPool: []
+  characterPool: []
+  uiPool:
   - prefab: {fileID: 6719269660662501932, guid: e24b6c1e7339dfa49992d539b5ed3717, type: 3}
     size: 0
   - prefab: {fileID: 4141274473937732383, guid: c790b8b4bccd39a4da3188044a6f82e6, type: 3}
     size: 0
-  vfxPool: []
-  characterPool: []
-  itemPool: []
 --- !u!114 &2001677767
 MonoBehaviour:
   m_ObjectHideFlags: 0
