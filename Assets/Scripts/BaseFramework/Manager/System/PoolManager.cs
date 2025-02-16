@@ -65,14 +65,26 @@ namespace BF
         void RecycleAll(Scene scene) => RecycleAll();
         public void RecycleAll()
         {
-            var obj = FindObjectsByType<BaseObject>(FindObjectsInactive.Exclude, FindObjectsSortMode.None);
-            if (obj == null)
+            int i = 0;
+            for (i = 0; i < itemPool.Length; i++)
             {
-                return;
+                itemPool[i].Initialize(transform);
+                dictionary.Add(itemPool[i].prefab.name, itemPool[i]);
             }
-            for(int i = 0; i < obj.Length; i++)
+            for (i = 0; i < vfxPool.Length; i++)
             {
-                obj[i].Close();
+                vfxPool[i].Initialize(transform);
+                dictionary.Add(vfxPool[i].prefab.name, vfxPool[i]);
+            }
+            for (i = 0; i < characterPool.Length; i++)
+            {
+                characterPool[i].Initialize(transform);
+                dictionary.Add(characterPool[i].prefab.name, characterPool[i]);
+            }
+            for (i = 0; i < uiPool.Length; i++)
+            {
+                uiPool[i].Initialize(transform);
+                dictionary.Add(uiPool[i].prefab.name, uiPool[i]);
             }
 
         }
@@ -127,6 +139,10 @@ namespace BF
 #endif
                 list.Remove(a);
                 queue.Enqueue(a);
+            }
+            public void Recycle()
+            {
+
             }
         }
     }
