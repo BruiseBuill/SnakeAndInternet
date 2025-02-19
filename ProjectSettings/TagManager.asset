@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - League0
+  - League1
+  - League2
+  - League3
+  - League4
+  - League5
+  - League6
+  - League7
+  - League8
+  - League9
+  - Fighter
+  - Mask
+  - League10
+  - League11
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Rabbit
+  - Snake
+  - Grass
+  - Wall
+  - Track
+  - Soldier
+  - Bullet
+  - League0
+  - League1
+  - League2
+  - League3
+  - League4
+  - League5
+  - League6
+  - League7
+  - League8
+  - League9
+  - League10
+  - League11
+  - Food
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BG
+    uniqueID: 2054962823
+    locked: 0
+  - name: Item
+    uniqueID: 1270153245
+    locked: 0
+  - name: Character
+    uniqueID: 3459026655
+    locked: 0
+  - name: UI
+    uniqueID: 2455669729
+    locked: 0

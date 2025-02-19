@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb2de2a4e5363c0468dad6bdc42ed878, type: 3}
+  m_Name: RabbitVisionInGrass
+  m_EditorClassIdentifier: 
+  name: "\u8349\u4E1B\u89C6\u91CE\u589E\u52A0"
+  description: "\u8349\u4E1B\u5185\u4E00\u89C8\u65E0\u4F59\u3002 "
