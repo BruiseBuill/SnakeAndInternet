@@ -4,8 +4,6 @@ using System.Collections.Generic;
 using Unity.Netcode;
 using UnityEngine;
 using UnityEngine.Events;
-using Sirenix.OdinInspector;
-using static UnityEditor.PlayerSettings;
 
 namespace Internet
 {

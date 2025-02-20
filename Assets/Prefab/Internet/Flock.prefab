@@ -80,6 +80,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   visionRadius: 4.2
   visionRadiusGrowth: 0.15
+  onAttack: {fileID: 11400000, guid: 6e4a718fb0ba02c4896cd7fe0c88416e, type: 2}
+  onMove: {fileID: 11400000, guid: 29adaad42b69f864ab86ab0c1d662844, type: 2}
 --- !u!114 &-7994644454531878836
 MonoBehaviour:
   m_ObjectHideFlags: 0
